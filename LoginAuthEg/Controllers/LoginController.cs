@@ -14,6 +14,7 @@ namespace LoginAuthEg.Controllers
         private readonly ISession session;
         public LoginController(OrgContext _db, IHttpContextAccessor httpContextAccessor)
         {
+        //Comment on LoginController
             db = _db;
             session = httpContextAccessor.HttpContext.Session;
         }
