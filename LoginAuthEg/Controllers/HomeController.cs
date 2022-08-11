@@ -17,7 +17,12 @@ namespace LoginAuthEg.Controllers
         {
             _logger = logger;
         }
-
+        //Adding a new method
+        public IActionResult Sample()
+        {
+            return View();
+        }
+        
         public IActionResult Index()
         {
             return View();

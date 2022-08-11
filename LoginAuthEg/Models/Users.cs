@@ -9,6 +9,7 @@ namespace LoginAuthEg.Models
 {
     public class Users
     {
+        //Primary key
         [Key]
         public int UserID { get; set; }
         public string UserName { get; set; }
